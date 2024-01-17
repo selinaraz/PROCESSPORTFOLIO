@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX DESIGNER</p>
+                <h1>Crafting Intuitive</p> <p> and User-Friendly Interfaces.</p>
+        </div>
+    </div>
+</div>
+
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/ME.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">ABOUT ME</h1>
+                <p> I'm Selin, a 21-year-old product designer based in Odense with a flair for crafting intuitive interfaces. 
+                <p> My passion for creative expression is a significant part of my life, a passion I actively pursue through my studies as “multimediedesigner” at UCL. 
+                    Throughout my education, I have acquired skills in various Adobe programs, including Photoshop, Illustrator, InDesign, Xd, Premiere Pro, and Lightroom. 
+                    My proficiency extends to HTML and CSS, alongside Wordpress, equipping me with the expertise to develop websites that are not only visually appealing but also user-friendly. </p>
+                <p> While I have a broad skill set, my true zeal lies in the realms of web design and app development, where I blend aesthetics with functionality to create seamless digital experiences.</p>
+                <p> If you're looking to elevate your content or bring fresh, innovative ideas to life, I invite you to reach out to me. My expertise in design and digital media is not just a service, but a partnership to transform your vision into reality. Whether it's revamping your branding, enhancing your online presence, or creating engaging multimedia content, I'm here to provide tailored solutions that resonate with your audience. </p>
+                <p> For a glimpse into my creative world and the work I've accomplished, please scroll further down the page to view my portfolio. Your journey towards impactful and memorable design starts with a simple conversation – feel free to contact me further down to explore the endless possibilities.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">MY SERVICES</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>WEB DESIGN</h2>
+                <p>Crafting bespoke websites that are not only visually stunning but also intuitive, ensuring a seamless user experience that effectively communicates your brand's message.</p>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX DESIGN</h2>
+                <p>Designing with the user in mind to create engaging and easy-to-navigate interfaces that enhance user interaction and satisfaction.</p>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>APP DESIGN</h2>
+                <p>Developing cutting-edge app designs that combine aesthetic appeal with functional excellence, tailored to deliver a superior mobile experience.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">MY WORK</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/langeland.JPG">
+                <div class="layer">
+                    <h3>APP DESIGN</h3>
+                    <p> Developed as a school project, this Adobe XD app concept for the museum Langelandsfort introduces a digital layer to enhance visitor engagement. It offers a seamless information platform with QR code scanning, a live map, and audio guides for exhibitions, enriching the museum experience." </p>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/WEBSTUDIEBOLIG.png">
+                <div class="layer">
+                    <h3>WEB DESIGN</h3>
+                    <p>Re-design of the website studiebolig-odense.dk. Created in Adobe XD as part of a school project. The vision was to create a more modern look that appeals to their target audience.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/muttmatch.JPG">
+                <div class="layer">
+                    <h3>APP DESIGN</h3>
+                    <p>New app created in Adobe XD as part of a school project. The vision was to create a user-friendly dating app for dogs. </p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            
+            <div class="contact-header">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <div class="contact-info">
+                    <p>EMAIL: SEL1N4R4Z@GMAIL.COM</p>
+                    <p>PHONE: +45 61 61 14 64</p>
+                </div>
+            </div>
+            
+            </div>
+                <form name="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">SUBMIT</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Selin Araz 2023
+    </div>
+</div>
+</body>
+</html>
